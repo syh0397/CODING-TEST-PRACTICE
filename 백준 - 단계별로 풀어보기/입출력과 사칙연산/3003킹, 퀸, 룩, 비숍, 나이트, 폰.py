@@ -16,6 +16,6 @@ a,b,c,d,e,f = map(int, input().split())
 list_of_chess = [a,b,c,d,e,f]
 chess = [1, 1, 2, 2, 2, 8]
 
-for i in range(len(list_of_chess)):    # 0:6 으로 6개 돌리고 -> 
+for i in range(len(list_of_chess)):    # 0:6 으로 6개 돌리고 ->  
     last_list =  chess[i] - list_of_chess[i] # chess[0] == 1 - list_of_chess[0] == a / => 1-a 만약 a에 0이 들어오면 1 
-    print(last_list) 
+    print(last_list)
